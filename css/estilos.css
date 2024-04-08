@@ -1,0 +1,36 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    /* fondo imagen panes */
+    background-image: url(../img/fondopan.jpg);
+    /* opacity: 0.5; */
+}
+/* central el login */
+.main-container{
+    /* fondo imagen panes */
+    /*background-image: url(../img/fondopan.jpg);*/
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: red; */
+}
+
+.main-container > .login,
+.main-container > .hero-body{
+    /* background-image: url(../img/fondopan.jpg); */
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+    min-width: 300px;
+    /* color de relleno de LOGIN */
+    /* background: red; */
+    /*opacity: 0.5;*/
+    /* aqui se coloca el color de la caja de login colocar una imagen de pan */
+    
+}
+
+.form-inline{
+    display: inline-flex;
+}
